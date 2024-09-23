@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    list-style:none;
+}
+@media only screen and (max-width: 600px) {
+
+    .Header .navBar{
+        visibility: hidden;
+    }
+
+}
+body{
+    background-image: url("Images/Background.png");
+    height: 7000px;
+    background-repeat: no-repeat;
+
+}
+ul{
+    display: flex;   
+}
+.Header{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Header .navBar li a{
+    font-size: large;
+    color: white; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin: 55px;
+
+}
+
+#Main_Text{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 32px;
+    color: #7F53FF;
+    padding-left: 50px;
+
+}
+
+/*Body*/
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10rem;   
+}
+section .Welcome #Welcome_Text{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    font-weight: BOLD;
+    
+}
+section .Welcome #Welcome_Text span{
+    color: #7F53FF;
+}
+.AboutMe{
+    margin-top: 30rem;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.AboutMe div h1{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    font-weight: BOLD;
+}
+.AboutMe div a{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: BOLD;
+}
+.AboutMe div p{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: BOLD;
+    margin-right: 250px;
+}
+.AboutMe img{
+    margin-right: 20px;
+}
+.AboutMe #box1{
+    margin-top: 250px;
+}
+.AboutMe #Socials{
+    
+}
+.AboutMe #Socials ul li img{
+    height: 50px;
+    width:  50px;
+    margin-top: -8rem;
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
+
+.Projects{
+    margin-top: 21rem;
+    margin-left: 15rem;
+}
+
+.Projects #Head h2 {
+    color: white;
+}
+.Projects #Head h1 {
+    color: white;
+}
+#Projects-List{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#Projects-List #Project1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-color: #7F53FF;
+    border-style: solid;
+    border-width: auto;   
+    width: 1500px;
+
+}
+
+#Project1 p{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: BOLD;
+    display: block;
+    margin-top: 7rem;
+    margin-right: 6rem;
+
+}
+#Project1 #github{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#Projects-List #Project2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-color: #7F53FF;
+    border-style: solid;
+    border-width: auto;   
+    width: 1500px;
+
+}
+
+#Project2 p{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: BOLD;
+    display: block;
+    margin-top: 7rem;
+    margin-right: 6rem;
+
+}
+#Project2 #github{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#Projects-List #Project3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-color: #7F53FF;
+    border-style: solid;
+    border-width: auto;   
+    width: 1500px;
+
+}
+
+#Project3 p{
+    color: white;
+    font-family: "Quicksand", BOLD;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: BOLD;
+    display: block;
+    margin-top: 7rem;
+    margin-right: 10rem;
+
+}
+#Project3 #github{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 235px;
+    width: auto;
+    width: 50px;
+    height: 50px;
+}
+
