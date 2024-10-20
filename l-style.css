@@ -3,11 +3,11 @@
     margin: 0;
 }
 a,p{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 body{
-    background-color: #030712;
+    background-color: #fff;
 }
 
 nav{
@@ -20,7 +20,7 @@ nav{
 }
 
 #Nav-H-Text{
-    color: white;
+    color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -35,7 +35,7 @@ nav{
     padding-right: 50px;
 }
 #navBar-Buttons li a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -45,7 +45,7 @@ nav{
     justify-content: center;
 }
 #NavBar-text:hover{
-    color: #3a4d68;
+    color: black;
 }
 /*-----------------------*/
 
@@ -63,14 +63,14 @@ nav{
 }
 
 #Introduction-H {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 1rem; /* Space between heading and paragraph */
 }
 
 #Introduction-text-area p {
-    color: #c0c0c0; /* Light gray text for readability on dark background */
+    color: #000000; /* Light gray text for readability on dark background */
     font-size: 18px;
     line-height: 1.8; /* Increase line height for better readability */
     margin-bottom: 2rem;
@@ -83,7 +83,7 @@ nav{
 }
 
 .info-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     display: flex;
@@ -104,14 +104,14 @@ nav{
 
 
 #border-back-picture{
-    background-color: #111827;
+    background-color: fffff;
     border: solid;
     width: 320px;
     height: 360;
 }
 /*----------------------------------------------------*/
 .AboutMe{
-    background-color: #111827;
+    background-color: #b7b7b7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +124,7 @@ nav{
     padding: 10px;
     padding-right: 25px;
     padding-left: 25px;
-    border: 1px solid #111827;
+    border: 1px solid fffff;
     border-radius: 14px;
     background-color: #374151;
     font-family: "Inter", sans-serif;
@@ -146,10 +146,10 @@ nav{
     gap: 20px;
 }
 #About-Text-Area h1{
-    color: white;
+    color: black;
 }
 #About-Text-Area p{
-    color: #c0c0c0; 
+    color: #000000; 
     font-size: 18px;
     line-height: 1.8; 
     margin-bottom: 2rem;
@@ -161,7 +161,7 @@ nav{
     gap: 30px;
 }
 #About-Text-Area div ul li{
-    color: #c0c0c0; 
+    color: #000000; 
     font-size: 18px;
 }
 /*--------------------------------------------------*/
@@ -175,7 +175,7 @@ nav{
     font-weight: normal;
     font-size: 20px;
     margin-top: 0.5rem;
-    color: #c0c0c0;
+    color: #000000;
 }
 
 .skills-badge {
@@ -210,7 +210,7 @@ nav{
 }
 
 .skill-item span {
-    color: white;
+    color: black;
     font-size: 16px;
     text-align: center;
 }
@@ -225,7 +225,7 @@ nav{
 
 .work-badge {
     background-color: #2c2f38;
-    color: #c0c0c0;
+    color: white;
     border: none;
     padding: 8px 16px;
     border-radius: 20px;
@@ -238,7 +238,7 @@ nav{
 .Work-section h2 {
     font-weight: normal;
     font-size: 20px;
-    color: #c0c0c0;
+    color: #000000;
     text-align: center;
 }
 
@@ -247,7 +247,7 @@ nav{
     width: 80%;
     max-width: 1200px;
     height: 430px;
-    background-color: #1F2937;
+    background-color: #b7b7b7;
     border-radius: 12px;
     display: flex;
     padding: 16px;
@@ -263,7 +263,7 @@ nav{
 /* Placeholder for Image */
 .project-image {
     width: 60%;
-    background-color: #2d2d34;
+    background-color: #b7b7b7;
     border-radius: 12px;
 }
 
@@ -282,7 +282,7 @@ nav{
 
 .project-details p {
     font-size: 20px;
-    color: #c0c0c0;
+    color: white;
     max-width: 500px;
 }
 
@@ -293,8 +293,8 @@ nav{
 }
 
 .tech-badge {
-    background-color: #2c2f38;
-    color: #c0c0c0;
+    background-color: #585858;
+    color: white;
     border-radius: 20px;
     padding: 6px 12px;
     font-size: 14px;
@@ -309,7 +309,6 @@ nav{
     width: auto;
     padding: 20px;
     border-radius: 10%;
-
 }
 .link-project{
     display: flex;
@@ -326,7 +325,7 @@ nav{
 .ContactMe h2{
     font-weight: normal;
     font-size: 20px;
-    color: #c0c0c0;
+    color: #000000;
     text-align: center;
 }
 .Email-Container{
@@ -335,21 +334,22 @@ nav{
 }
 .Email-Container a{
     padding-top: 10px;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
 }
 /*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
 .CopyRight{
-    background-color: #111827;
+    background-color: #b7b7b7;
     align-items: center;
 }
 .CopyRight h1{
     padding: 1rem;
-    color: white;
+    color:black;;
     font-weight: normal;
     font-size: 20px;
-    color: #c0c0c0;
+    color: black;
     text-align: center;
 }

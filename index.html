@@ -1,108 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <title>Kammoun</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahmed Kammoun</title>
+        <link id="stylesheet" rel="stylesheet" media="screen and (min-width: 1200px)" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" media="screen and (max-width: 1200px)" href="style2.css">
+    </head>
 <body>
-    <section class="Header">
-        <a  id="Main_Text">Kammoun.tn</a>
-        <ul class="navBar">
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Servers</a></li>
+    <nav>
+        <h1 id="Nav-H-Text">Kamoun.tn</h1>
+        <ul id="navBar-Buttons">
+            <li><a id="NavBar-text" href="#AboutMe">About</a></li>
+            <li><a id="NavBar-text" href="#Work-section">Work</a></li>
+            <li><a id="NavBar-text" href="#ContactMes">Contact</a></li>
+            <li><a href="">|</a></li>
+            <a href="#" id="day-night">
+                <img src="Images/Icons/Dark_Light Icon.png" alt="">
+            </a>
         </ul>
-    </section>
-    <section class="body">
-        <div class="Welcome">
-            <h1 id="Welcome_Text" id="text">HI MY NAME IS 
-                <span>KAMMOUN</span><br>
-                MINECRAFT PLUGIN<span> DEVELOPER</span>
+    </nav>
+    <section class="Introduction">
+        <div id="Introduction-text-area">
+            <h1 id="Introduction-H">
+                Hi, I’m Ahmed <span>👋</span>
             </h1>
+            <p>
+                I'm a passionate DJ and a computer science major with a deep interest in technology. 
+                As a skilled Java developer and tutor, I specialize in server management, 
+                plugin development, web development, and UI/UX design. With a strong focus 
+                on delivering high-quality, scalable solutions, I’m always excited about 
+                new tech innovations and love collaborating on creative projects. 
+                Open to coding interviews and collaboration opportunities, 
+                I’m eager to share my expertise and take on new challenges.
+            </p>
+            <div class="info-links">
+                <a href="#"><img src="Images/Icons/location.png" alt=""> Tunisia</a>
+                <a href="#"> <span class="status-dot">🟢</span> Available for new projects</a>
+            </div>
+            <div class="Social-links">
+                <a href=""><img src="Images/Icons/Github.png" alt=""></a>
+                <a href=""><img src="Images/Icons/Twiter.png" alt=""></a>
+            </div>
         </div>
-        <img src="Images/pfp.png" alt="Kammoun profile picture" id="pfp">
-    </section>
-    <section class="AboutMe">
-            <div>
-                <h1>About Me</h1>
-                 <a>Who is Kammoun ?</a>
-                 <br>
-                 <p>
-                     A computer science major with expertise in server management,<br>
-                    plugin development, web development, and UI/UX design. <br>
-                    Open to coding interviews and collaboration opportunities, <br>
-                    focusing on delivering high-quality, scalable solutions.
-     
-                 </p>
-            </div>
-            <img  id="box1" src="Images/Group 296.png" alt="">
-            <img  id="box2" src="Images/Group 296.png" alt="">
-            <div id="Socials">
-                <ul>
-                    <li><a href="https://github.com/MrKammounYT"><img src="Images/github.png" alt="Kammoun github"> </a></li>
-                    <li><a href=""><img src="Images/discord.png" alt="kammoun discord"></a></li>
-                    <li><a href=""><img src="Images/linkdin.png" alt="kammoun linkdin"></a></li>
-                </ul>
-            </div>
-    </section>
-    <section class="Projects">
-        <div id="Head">
-            <h2>Projects</h2>
-            <h1>SOME PLUGIN I HAVE WORKED ON</h1>
-        </div>
-        <br>
-        <div id="Projects-List">
-            <div id="Project1">
-                <img src="Images/Rectangle 213.png">
-                <p>
-                    This pvp plugin was coded for a 1.8 pvp server called eaglemc <br>
-                    pvp is a minecraft minigame <br>
-                    <a href=""><img src="Images/GithubWhite.png" alt="" id="github"></a>
-                </p>
-
-            </div>
-            <div>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div id="Project2">
-                <img src="Images/Pillars.jpg" alt="Pillars of Fortune">
-                <p>
-                    Pillars of Fortune is a Minecraft plugin inspired by the popular <br>
-                    CubeCraft minigame<br>
-                    <a href=""><img src="Images/GithubWhite.png" alt="" id="github"></a>
-                </p>
-
-            </div>
-            <div>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div id="Project3">
-                <img src="Images/Quiz.jpg" alt="Quiz Game">
-                <p>
-                    Quiz Gameyou can create quizzes and customize them <br>
-                    the questions to your liking<br>
-                    <a href="https://github.com/MrKammounYT/QuizGame"><img src="Images/GithubWhite.png" alt="" id="github"></a>
-                </p>
-            </div>
-
+        <div class="pfp-picture">
+            <img id="pfp-picture" src="Images/pfp.png" alt="">
         </div>
     </section>
-    <section>
 
+    <section id="AboutMe" class="AboutMe">
+        <a id="AboutMe-Welcome-Text">About Me</a>
+        <div id="About-Area">
+            <img src="Images/Column.png" alt="">
+            <div id="About-Text-Area">
+                <h1>Curious about me? Here you have it:</h1>
+                <p>I’m Ahmed Kammoun, a DJ, Java developer,
+                     and tech enthusiast with a solid foundation in computer science. 
+                     Currently pursuing my degree at the Institut de Technologie in Sfax,
+                      I have hands-on experience in server management, plugin development, web development,
+                       and UI/UX design. My passion for technology drives me to take on diverse projects, 
+                       whether it's giving Java courses, managing Minecraft servers, or organizing tech events.
+                        As a former president of the Microsoft Technology Club and an active developer,
+                     I’m always on the lookout for exciting collaborations and innovative solutions. 
+                     Let’s connect!
+                </p>
+                <p>Finally, some quick bits about me.</p>
+                <div>
+                    <ul>
+                        <li>Computer Science Student</li>
+                        <li>Part time freelancer</li>
+                    </ul>
+                    <ul>
+                        <li>Fast Learner</li>
+                        <li>Competitive</li>
+                    </ul>
+                </div>
+                <p>One last thing, I'm available for freelance work, so feel free to reach out and say hello!</p>
+            </div>
+        </div>
+        
     </section>
+    <section  class="skills-section">
+        <div class="skills-header">
+            <button class="skills-badge">Skills</button>
+            <h2>The skills, tools, and technologies I have worked with:</h2>
+        </div>
+    
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="Images/Icons/java.png" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/python.png" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-react.svg" alt="C++">
+                <span>C++</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/html.png" alt="HTML 5">
+                <span>HTML 5</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-nodejs.svg" alt="CSS 3">
+                <span>CSS 3</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-BootStrap.svg" alt="Bootstrap 5">
+                <span>Bootstrap 5</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-tailwindcss.svg" alt="Tailwind CSS">
+                <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-socket.svg" alt="RekordBox">
+                <span>RekordBox</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/mysql.svg" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-mongodb.svg" alt="MongoDB">
+                <span>MongoDB</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-sass.svg" alt="Arduino">
+                <span>Arduino</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-figma.svg" alt="Figma">
+                <span>Figma</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-cypress.svg" alt="Cypress">
+                <span>Cypress</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-storybook.svg" alt="C#">
+                <span>C#</span>
+            </div>
+            <div class="skill-item">
+                <img src="Images/Icons/icon-git.svg" alt="Git">
+                <span>Git</span>
+            </div>
+        </div>
+    </section>
+    <section id="Work-section" class="Work-section">
+        <button class="work-badge">Work</button>
+        <h2>Some of the noteworthy projects I have built:</h2>
+    
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-image"><img src="Images/bank.jpg" alt="project1"></div>
+                <div class="project-details">
+                    <h1>Banking System</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas nec urna ac tellus volutpat viverra. 
+                        Vestibulum ante ipsum primis in faucibus orci luctus 
+                        et ultrices posuere cubilia curae.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">XML</span>
+                        <span class="tech-badge">YAML</span>
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">Git</span>
+                    </div>
+                    <div class="link-project">
+                        <a href=""><img src="Images/Icons/Icon Button.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-image"><img src="Images/code-a-customised-minecraft-plugin.jfif" alt="project2"></div>
+                <div class="project-details">
+                    <h1>MC Plugin Development</h1>
+                    <p>Worked on several Minecraft Plugin And Servers Since 2018 
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Shell</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Casandra</span>
+                        <span class="tech-badge">Redis</span>
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">Git</span>
+                    </div>
+                    <div class="link-project">
+                        <a href=""><img src="Images/Icons/Icon Button.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ContactMes" class="ContactMe">
+        <button class="work-badge">Get In touch</button>
+        <h2>What’s next? Feel free to reach out to me if you're looking for <br>a developer, have a query, or simply want to connect.</h2>
+        <div class="Email-Container">
+            <img src="Images/Icons/email.png" alt="Email">
+            <a>ahmed@kamoun.tn</a>
+            <img src="Images/Icons/copy.png" alt="copy">
+        </div>
+        <p>You may also find me on these platforms!</p>
+        <a href=""><img src="Images/Icons/Github.png" alt="Github"></a>
+    </section>
+    <section class="CopyRight">
+        <h1>2024 | Designed and coded with <span>❤️</span>️ by Ahmed Kammoun</h1>
+    </section>
+      
+    <script src="script.js">
+    </script>
 
 </body>
 </html>
